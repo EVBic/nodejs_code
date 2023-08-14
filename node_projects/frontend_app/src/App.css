@@ -1,69 +1,29 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: left;
-  background-color: snow;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-html {
-}
-
-body {
-}
-
-a {
-  color: white !important;
+  background-color: rgb(7, 7, 7);
 }
 
 p {
-  max-width: 280px;
-  margin: 15px;
-  padding-top: 10px;
+  max-width: 380px;
+  margin:5px;
+  margin-top: 15px;
 }
 
-dl,
-ol,
 ul {
   list-style: none;
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 0 0 -10px;
-  margin-top: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 22px;
 }
 
 .buttons {
@@ -73,7 +33,7 @@ ul {
 }
 
 .card-body {
-  border: 7px solid goldenrod;
+  border: 2px solid rgb(11, 59, 23);
   border-radius: 5px;
 }
 
@@ -85,21 +45,26 @@ ul {
   display: flex;
   width: 100%;
   gap: 100px;
+  margin-top: 15px;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 3%;
 }
 .container {
-  background-color: #f8f9fa;
-  max-width: 100% !important;
+  background-color: #588d5c;
+  padding: 5px;
+  border-radius: 1%;
+  gap: 35px;
 }
 
 .leftContainer {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-.searchResult {
+ display: flex;
+ text-align: center;
+ gap: 35px;
+  }
+
+  .searchResult {
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -1,0 +1,76 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+  }
+  
+  .App {
+    text-align: left;
+    background-color: rgb(26, 25, 25);
+  }
+  
+  p {
+    max-width: 380px;
+    margin:5px;
+    margin-top: 15px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 22px;
+    }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  
+  .card-body {
+    border: 4px solid rgb(45, 131, 79);
+    border-radius: 5px;
+  }
+  
+  .close-button {
+    margin-left: 200px;
+  }
+  
+  .navbar {
+    display: flex;
+    width: 100%;
+    gap: 100px;
+    margin-top: 5px;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    background-color: #2d784a;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 1%;
+  }
+  
+  .leftContainer {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    }
+  
+  .searchResult {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+  }
+  
+  
