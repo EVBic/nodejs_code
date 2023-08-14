@@ -168,7 +168,9 @@ const ContactList = () => {
         {' '}
         <div className="leftHeader">
           {' '}
-          <h2>Contact List</h2>{' '}
+          <h2>  
+            Contact List
+          </h2>{' '}
           {creatingContact && searchName ? null : ( // Conditionally render the button
             <button
               className="btn btn-success mb-3"
@@ -288,7 +290,7 @@ const ContactList = () => {
                         <p className="card-text">Email: {contact.email}</p>
                         <p className="card-text">Phone: {contact.phone}</p>
                         <button
-                          className="btn btn-primary"
+                          className="upDatebtn"
                           onClick={() =>
                             setContacts((prevContacts) =>
                               prevContacts.map((prevContact) =>

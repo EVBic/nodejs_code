@@ -19,7 +19,7 @@ const ContactSearch = ({ onSearch, onClear }) => {
         <input
           className="form-control me-2"
           type="search"
-          placeholder="Enter name..."
+          placeholder="Enter contact's name..."
           aria-label="Search"
           value={searchName}
           onChange={handleSearchChange}
@@ -37,6 +37,7 @@ const ContactSearch = ({ onSearch, onClear }) => {
           type="submit"
           onClick={handleSearchClick}
         >
+          <img src={`lupa.png`} alt="searchPic" style={{ width: '25px'}}/>
           Search
         </button>
       </form>

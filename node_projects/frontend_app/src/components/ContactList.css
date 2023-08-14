@@ -1,87 +1,15 @@
-p {
-  padding: 0;
+.leftHeader{
+    margin-left: 20px;
+    display: flex;
+    justify-content: left;
+    gap: 20%;
+    margin: 20px 0px 0px 20px;
 }
 
-.textCreate {
-  margin-top: -50px !important;
-  padding: 21px;
-}
-
-input {
-}
-
-.card-header {
-  border: 7px dashed lightseagreen;
-  margin: 0.2em;
-}
-
-.custom-body {
-  margin: 0.2em;
-  border: 7px dashed goldenrod;
-  border-radius: 5px;
-  width: 415px !important;
-}
-
-.card-body {
-  margin: 0.2em;
-  border: 7px dashed goldenrod;
-  border-radius: 5px;
-}
-
-.custom-title {
-  padding-bottom: 30px !important;
-}
-
-.card-title {
-  padding-bottom: 15px !important;
-}
-
-.container {
-  background-color: white;
-  --bs-gutter-x: 0 !important;
-}
-
-.create-card {
-  width: 423px;
-}
-
-.create-form {
-  display: flex;
-  justify-content: center;
-  width: 100vw;
-}
-
-.customField {
-  width: 280px;
-  margin-top: 5px;
-}
-
-.leftHeader {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  min-width: 375px;
-}
-
-.rightHeader {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.row {
-  background-color: white;
-}
-
-.header {
-  display: flex;
-  margin: 20px;
-  gap: 50px;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.container-fluid {
-  width: unset !important;
-  /* padding-left: calc(var(--bs-gutter-x) * 20.5) !important; */
+.upDatebtn {
+    background-color: rgb(29, 69, 40);
+    color: white;
+    padding: 6px;
+    border-radius: 7px;
+    border: 1px solid green;
 }
