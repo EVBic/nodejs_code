@@ -1,141 +1,38 @@
-# React MVC CRUD App Documentation
+Contacts List Web Application
+This repository contains a web application for managing a list of contacts. The web page is designed with a user-friendly interface, providing easy access to essential features. Here's an overview of the main functionalities:
 
-This repository showcases a CRUD (Create, Read, Update, Delete) application built using React in an MVC (Model-View-Controller) architecture. The app allows users to manage contacts with various operations. Below is a detailed documentation on the features, setup, and usage of this application.
+![image](https://github.com/EVBic/nodejs_code/assets/129067154/1a455348-56e8-4c82-a654-12c03615c579)
 
-## Features
+Features:
+Home Page: The web application starts with a welcoming home page that displays two icons: one for returning to the home page and the other for accessing the contacts.
 
-- Create, Read, Update, and Delete contacts.
-- Search contacts by name.
-- MVC architecture for better separation of concerns.
-- Utilizes React for the frontend and Express.js with MongoDB for the backend.
+![contactP3](https://github.com/EVBic/nodejs_code/assets/129067154/c4532523-4659-46c4-a3e5-b88871791ddf)
 
-## Project Setup
+Contacts Page: By clicking on the "Contacts" icon, users can navigate to the contacts page, which serves as the main hub for managing contacts.
 
-### Local Machine Setup
+Contact Agenda: The contact agenda is prominently displayed on the contacts page, allowing users to view and organize their list of contacts efficiently.
 
-1. Clone this repository to your local machine:
+Add Contact Button: To streamline the process of adding new contacts, there's a dedicated "Add Contact" button. This feature simplifies the task of expanding the contacts list.
 
-   ```bash
-   git clone https://github.com/newsnick/node_projects.git <your-folder>
-   cd <your-folder>
-   ```
+Search Bar: The web application incorporates a search bar, enabling users to quickly find specific contacts within their list. This feature enhances user convenience and efficiency.
 
-**Note: `<your-folder>` will automatically be created during the operation.**
+Getting Started:
+To get started with this web application, follow these steps:
 
-2. Navigate to the frontend directory and install dependencies:
+Clone this repository to your local machine using the following command:
 
-   ```bash
-   cd frontend_app
-   npm install
-   ```
+bash
+Copy code
+git clone https://github.com/EVBic/nodejs_code.git
+Open the project folder and navigate to the index.html file to access the home page.
 
-3. Navigate to the backend directory and install dependencies.
+Click on the "Contacts" icon to access the contacts page, where you can manage your contacts, add new ones, and utilize the search functionality.
 
-   ```bash
-   cd backend_app
-   npm install
-   ```
+Usage:
+This web application is designed to simplify contact management, making it easy to maintain an organized list of contacts. Whether you need to add new contacts, find specific ones quickly, or update existing information, this application provides a user-friendly solution.
 
-## Setting Up the Express API
+Contributions:
+Contributions to this project are welcome! Feel free to fork this repository, make changes, and submit a pull request. Please follow our contribution guidelines when contributing to ensure a smooth collaboration process.
 
-1. Create a MongoDB Atlas account and get the connection URI.
-2. Replace `dbURI` in `db-connection.js` with your MongoDB connection URI.
+I hope you find this contacts list web application helpful in managing your contacts effectively! If you have any questions or encounter issues, please don't hesitate to reach out to our support team.
 
-**Note: the above steps are optional as a connection URI (`test`) is already provided in this project.**
-
-3. Start the backend server:
-
-   ```bash
-   npm start
-   ```
-
-4. The Express API will be accessible at `http://localhost:8080`
-
-## Running the Frontend
-
-1. Start the React app:
-
-   ```bash
-   cd frontend_app
-   npm start
-   ```
-
-## User Features
-
-- View a List of contacts.
-- Search for contacts by name.
-- Create a new contact.
-- Update an existing contact.
-- Delete a contact.
-
-## Technologies Used
-
-### Frontend
-
-- React
-- React Router
-- Bootstrap (for styling)
-
-### Backend
-
-- Express.js
-- MongoDB (Atlas)
-- Mongoose (ODM for MongoDB)
-
-## ContactList
-
-The `ContactList.jsx` component is the main interface for managing contacts. It allows users to search, view, create, update, and delete contacts.
-
-<!-- <img src="https://github.com/newsnick/nodejs_code/blob/main/node_projects/frontend_app/assets/images/1.%20main.png?raw=true" width="800" height="400" /> -->
-
-![alt text](https://github.com/newsnick/nodejs_code/blob/main/node_projects/frontend_app/assets/images/1.%20main.png?raw=true)
-
-![alt text](https://github.com/newsnick/nodejs_code/blob/main/node_projects/frontend_app/assets/images/2.%20addcontact.png?raw=true)
-![alt text](https://github.com/newsnick/nodejs_code/blob/main/node_projects/frontend_app/assets/images/3.%20savecontact.png?raw=true)
-![alt text](https://github.com/newsnick/nodejs_code/blob/main/node_projects/frontend_app/assets/images/4.%20search.png?raw=true)
-![alt text](https://github.com/newsnick/nodejs_code/blob/main/node_projects/frontend_app/assets/images/5.%20update.png?raw=true)
-![alt text](https://github.com/newsnick/nodejs_code/blob/main/node_projects/frontend_app/assets/images/5.%20update2.png?raw=true)
-![alt text](https://github.com/newsnick/nodejs_code/blob/main/node_projects/frontend_app/assets/images/6.%20delete.png?raw=true)
-
-## How to Contribute
-
-1. Fork the repository on GitHub.
-2. Clone your forked repository to your local machine:
-
-```bash
- git clone https://github.com/your-username/your-repo.git
- cd your-repo
-```
-
-3. Install the dependencies:
-
-```bash
- cd frontend_app
- npm install
-```
-
-4. Create a new branch for your changes:
-
-```bash
- git checkout -b feature/new-feature
-```
-
-5. Make your changes and commit them:
-
-```bash
- git commit -m "Add new feature"
-```
-
-6. Push your changes to your forked repository:
-
-```bash
- git push origin feature/new-feature
-```
-
-7. Create a pull request on GitHub.
-
-8. Wait for your changes to be reviewed and merged.
-
-### Licence
-
-This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License - see the [LICENCE](https://choosealicense.com/licenses/mit/) file for details.
